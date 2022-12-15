@@ -1,0 +1,307 @@
+@font-face {
+    font-family: "Forum";
+    src: url(./assets/fonts/Forum/Forum-Regular.ttf);
+}
+.hero-section-container {
+    background-color: black;
+    height: 300px;
+
+    @media screen and (max-width: 960px) {
+        height: auto;
+    }
+    .hero-wrap {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .hero-text {
+        padding-top: 2.5rem;
+        @media screen and (max-width: 1200px) {
+            padding-top: 2rem;
+        }
+        @media screen and (max-width: 991px) {
+            padding-top: 0;
+        }
+    }
+
+    .img-wrapper {
+        height: 100%;
+        background-image: url("../src/assets/images/statue-1.jpg");
+        background-position: center;
+        background-size: cover;
+        @media screen and (max-width: 960px) {
+            min-height: 30px;
+        }
+    }
+
+    p,
+    a,
+    h1 {
+        color: white;
+    }
+
+    .btns-wrapper {
+        display: flex;
+        gap: 1em;
+        @media screen and (max-width: 960px) {
+            display: block;
+        }
+    }
+}
+
+p,
+a {
+    color: var(--gray-400);
+    font-family: "Forum";
+}
+
+.menu-btn {
+    display: flex;
+    top: 0;
+    right: 0;
+    z-index: 20;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: black;
+    border: 0;
+    background-color: white;
+    margin: 20px;
+
+    .menu-icon-container {
+        position: absolute;
+        width: 10px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+
+        span {
+            background-color: #161412;
+            position: absolute;
+            height: 2px;
+            transition-duration: 300ms;
+            transition-property: transform;
+            transition-timing-function: ease-in-out;
+        }
+
+        .icon-line {
+            width: 30px;
+        }
+        .icon-line:first-child {
+            top: 0px;
+            transform: translateY(-0.375rem);
+        }
+        .icon-line:nth-child(2) {
+            top: 2px;
+            transition-property: all;
+            transition-duration: 300ms;
+            transition-delay: 200ms;
+            opacity: 1;
+        }
+        .icon-line:last-child {
+            top: 6px;
+            transform: translateY(0.375rem);
+        }
+    }
+    &.expended {
+        background-color: #161412;
+        span {
+            background-color: white;
+        }
+        .icon-line:first-child {
+            transform: translateY(3px) rotate(135deg);
+            transition-delay: 200ms;
+        }
+        .icon-line:nth-child(2) {
+            width: 0;
+            opacity: 0.5;
+        }
+        .icon-line:last-child {
+            transform: translateY(-3px) rotate(-135deg);
+            transition-delay: 200ms;
+        }
+    }
+}
+
+.menu-container {
+    //display: flex;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+    height: 100vh;
+    padding-top: 24px;
+    background-color: #161412;
+    color: white;
+    transition-property: all;
+    transition-duration: 300ms;
+    opacity: 0;
+    transform: translateX(-360deg);
+    &.expended {
+        display: block;
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .menu-list {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        li {
+            list-style-type: none;
+        }
+        a {
+            color: white;
+            font-size: 36px;
+        }
+    }
+}
+
+.images-collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 30vw;
+    list-style: none;
+    grid-gap: 25px;
+    margin-top: 20px;
+    figure,
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    img {
+        object-fit: cover;
+    }
+
+    .item {
+        border-radius: 10px;
+        position: relative;
+        overflow: hidden;
+        margin: 0;
+        img {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-height: 100%;
+            min-width: 100%;
+            transform: translate(-50%, -50%);
+        }
+        &.short {
+            grid-row: span 1;
+        }
+        &.tall {
+            grid-row: span 2;
+        }
+    }
+
+    @media screen and (max-width: 960px) {
+        grid-template-columns: 1fr;
+    }
+}
+
+.information-section {
+    margin: 2em 0;
+    p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 2;
+    }
+
+    span {
+        font-weight: bold;
+        font-size: large;
+        line-height: 1.5;
+    }
+}
+.contact-form-section-container {
+    h1,
+    span {
+        font-family: "Courier New", Courier, monospace;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    .email-input {
+        width: 400px;
+        margin: 1.25rem 0;
+        border-bottom: 2px solid #161412;
+
+        input {
+            width: 100%;
+            border: none;
+        }
+
+        @media screen and (max-width: 960px) {
+            width: auto;
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+        }
+    }
+}
+
+.footer-section {
+    img {
+        width: 200px;
+    }
+
+    .contact-us-img {
+        @media screen and (max-width: 960px) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .footer {
+        h3 {
+            margin-bottom: 1em;
+            color: #6e6e6e;
+            text-transform: capitalize;
+        }
+        ul {
+            list-style-type: none;
+            a {
+                text-decoration: none;
+                color: #333333;
+            }
+            li {
+                margin: 1.25rem 0;
+            }
+        }
+    }
+}
+
+.about-section-wrapper {
+    margin: 20px 0;
+    .about-img-wrapper {
+        img {
+            display: block;
+            width: 50%;
+        }
+    }
+}
+
+.header {
+    margin-bottom: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+.logo {
+    font-family: "Forum";
+    font-size: 34px;
+
+    @media screen and (max-width: 960px) {
+        font-size: 18px;
+    }
+}
