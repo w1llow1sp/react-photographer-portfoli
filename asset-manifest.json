@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-photographer-portfolio/static/css/main.34db937d.css",
+    "main.js": "/react-photographer-portfolio/static/js/main.a67fd976.js",
+    "static/js/787.cf92c735.chunk.js": "/react-photographer-portfolio/static/js/787.cf92c735.chunk.js",
+    "static/media/Forum-Regular.ttf": "/react-photographer-portfolio/static/media/Forum-Regular.6b8e836eb36b2f54db9a.ttf",
+    "static/media/statue-1.jpg": "/react-photographer-portfolio/static/media/statue-1.3ae588981466256f160d.jpg",
+    "index.html": "/react-photographer-portfolio/index.html",
+    "static/media/right-arrow.svg": "/react-photographer-portfolio/static/media/right-arrow.377a106da674e91416bae8c48782bf17.svg",
+    "main.34db937d.css.map": "/react-photographer-portfolio/static/css/main.34db937d.css.map",
+    "main.a67fd976.js.map": "/react-photographer-portfolio/static/js/main.a67fd976.js.map",
+    "787.cf92c735.chunk.js.map": "/react-photographer-portfolio/static/js/787.cf92c735.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.34db937d.css",
+    "static/js/main.a67fd976.js"
+  ]
+}
