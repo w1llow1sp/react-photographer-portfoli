@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import HANDS from '../images/hands.jpg'
 
 const AboutSection = () => {
     return (
@@ -28,7 +29,7 @@ const AboutSection = () => {
                     <a href='/'> Learn More</a>
                 </Col>
                 <Col xs={12} md={6} className='about-img-wrapper'>
-                    <img alt='hands' src={`images/hands.jpg`} />
+                    <img alt='hands' src={HANDS} />
                 </Col>
             </Row>
         </Container>

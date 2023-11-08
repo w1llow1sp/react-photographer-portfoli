@@ -8,7 +8,7 @@ const HeroSection = () => {
                 <Col
                     xs='12'
                     md='8'
-                    classname='d-flex flex-column justify-content-center text-start px-4 hero-wrap'
+                    className='d-flex flex-column justify-content-center text-start px-4 hero-wrap'
                 >
                     <div className='mx-4 hero-text'>
                         <h1>Photography Portfolio and My Projects </h1>
