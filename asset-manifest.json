@@ -1,18 +1,29 @@
 {
   "files": {
     "main.css": "/react-photographer-portfolio/static/css/main.34db937d.css",
-    "main.js": "/react-photographer-portfolio/static/js/main.a67fd976.js",
+    "main.js": "/react-photographer-portfolio/static/js/main.b489c51c.js",
     "static/js/787.cf92c735.chunk.js": "/react-photographer-portfolio/static/js/787.cf92c735.chunk.js",
     "static/media/Forum-Regular.ttf": "/react-photographer-portfolio/static/media/Forum-Regular.6b8e836eb36b2f54db9a.ttf",
     "static/media/statue-1.jpg": "/react-photographer-portfolio/static/media/statue-1.3ae588981466256f160d.jpg",
+    "static/media/photo-8.jpg": "/react-photographer-portfolio/static/media/photo-8.b4629dfff0d7b0310b62.jpg",
+    "static/media/photo-5.jpg": "/react-photographer-portfolio/static/media/photo-5.744161711758f1918da6.jpg",
+    "static/media/photo-7.jpg": "/react-photographer-portfolio/static/media/photo-7.0198c81d28903c20b7d4.jpg",
+    "static/media/photo-4.jpg": "/react-photographer-portfolio/static/media/photo-4.dac9f4028f8cdfe5957c.jpg",
+    "static/media/photo-9.jpg": "/react-photographer-portfolio/static/media/photo-9.189522d83c815cbecad1.jpg",
+    "static/media/photo-2.jpg": "/react-photographer-portfolio/static/media/photo-2.69e2f1e5dade501c7e84.jpg",
+    "static/media/photo-6.jpg": "/react-photographer-portfolio/static/media/photo-6.63e84a1707067833dce9.jpg",
+    "static/media/photo-1.jpg": "/react-photographer-portfolio/static/media/photo-1.79b13297bcc276c3f923.jpg",
+    "static/media/camera-hand.jpg": "/react-photographer-portfolio/static/media/camera-hand.e430a9dad22dd625a32e.jpg",
+    "static/media/hands.jpg": "/react-photographer-portfolio/static/media/hands.d7a027e23c47371201cc.jpg",
+    "static/media/photo-3.jpg": "/react-photographer-portfolio/static/media/photo-3.236f83b7f7aa511aed3b.jpg",
     "index.html": "/react-photographer-portfolio/index.html",
     "static/media/right-arrow.svg": "/react-photographer-portfolio/static/media/right-arrow.377a106da674e91416bae8c48782bf17.svg",
     "main.34db937d.css.map": "/react-photographer-portfolio/static/css/main.34db937d.css.map",
-    "main.a67fd976.js.map": "/react-photographer-portfolio/static/js/main.a67fd976.js.map",
+    "main.b489c51c.js.map": "/react-photographer-portfolio/static/js/main.b489c51c.js.map",
     "787.cf92c735.chunk.js.map": "/react-photographer-portfolio/static/js/787.cf92c735.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.34db937d.css",
-    "static/js/main.a67fd976.js"
+    "static/js/main.b489c51c.js"
   ]
 }
